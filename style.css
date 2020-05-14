@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: linear-gradient(120deg,#f6d365, #fda0a5);
+    background-image: linear-gradient(180deg,#84cfe6, #b46094);
     color: white;
     font-family: 'Poppins', sans-serif;
     min-height: 100vh;
@@ -31,14 +31,14 @@ form input, form button{
 }
 
 form button{
-    color: #d99771;
+    color: #4e8ab3;
     background: white;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 form button:hover{
-    background: #d99771;
+    background: #4e8ab3;
     color: white;
 }
 
@@ -70,7 +70,7 @@ form button:hover{
 
 .trash-btn, 
 .complete-btn{
-    background: #ff6f47;
+    background: #db4b4b;
     color: white;
     border: none;
     padding: 1rem;
@@ -115,7 +115,7 @@ select{
 }
 
 select{
-    color: #ff6f47;
+    color: #5970d6;
     width: 10rem;
     cursor: pointer;
     padding: 1rem;
@@ -124,7 +124,7 @@ select{
 .select::after {
     content: "\25BC";
     position: absolute;
-    background: #ff6f47;
+    background: #455ece;
     top: 0;
     right: 0;
     padding: 1rem;
@@ -133,6 +133,6 @@ select{
 }
 
 .select:hover::after{
-    color: #ff6f47;
+    color: #455ece;
     background: white;
 }
